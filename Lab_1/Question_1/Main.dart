@@ -1,19 +1,11 @@
 import 'dart:io';
 
-
-
-void main(){
-
+void main() {
   print("enter the hight:");
-  int hight = stdin.readLineSync() as int;
+  double? hight = double.parse(stdin.readLineSync()!);
   print("enter the base:");
-  int base = stdin.readLineSync() as int;
+  double? base = double.parse(stdin.readLineSync()!);
 
-
-
-
-  print("the area of a tringle is:");
-
-
-
+  double? area = ((base*hight)/2) ;
+  print("the area of a tringle is: ${area}");
 }
