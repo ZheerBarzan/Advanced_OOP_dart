@@ -60,7 +60,7 @@
 
   }
   int soldNumber(int sold){
-    int inventory = getCount - sold;
+    int inventory = setCount = getCount-sold;
     return inventory;
 
   }
