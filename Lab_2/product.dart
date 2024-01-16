@@ -1,6 +1,6 @@
  class Product{
 
-  final int DISCOUNT_RATE =10;
+  final double DISCOUNT_RATE =10;
    late int product_id;
    late String prodcut_name;
    late double product_price;
@@ -46,5 +46,27 @@
     product_count =count;
   }
 
+  @override
+  String toString() {
+    return 'Product{product_id: $product_id, prodcut_name: $prodcut_name, product_price: $product_price, product_year: $product_year, product_count: $product_count}';
+  }
+
+  double computeSellingPrice(){
+    double computedDiscount = getPrice * computeDiscount();
+    double sellingPrice = getPrice - computedDiscount;
+
+    return sellingPrice;
+
+
+  }
+  int soldNumber(int sold){
+    int inventory = getCount - sold;
+    return inventory;
+
+  }
+  double computeDiscount(){
+    double discountValue = DISCOUNT_RATE/100;
+    return discountValue;
+  }
 }
 
