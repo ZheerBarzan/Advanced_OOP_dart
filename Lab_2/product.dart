@@ -15,5 +15,36 @@
     this.product_count =100;
   }
 
+  int get getID{
+    return product_id;
+  }
+  set setID(int id){
+    product_id =id;
+  }
+  String get getName{
+    return prodcut_name;
+  }
+  set setName(String name){
+    prodcut_name =prodcut_name;
+  }
+  double get getPrice{
+    return product_price;
+  }
+  set setPrice(double price){
+    product_price =price;
+  }
+  int get getYear{
+    return product_year;
+  }
+  set setYear(int year){
+    product_year =year;
+  }
+  int get getCount{
+    return product_count;
+  }
+  set setCount(int count){
+    product_count =count;
+  }
+
 }
 
