@@ -38,4 +38,9 @@ class Student {
   set id(int value) {
     _id = value;
   }
+
+  @override
+  String toString() {
+    return 'Student{_id: $_id, _name: $_name, _module: $_module, _average: $_average, _program: $_program}';
+  }
 }
