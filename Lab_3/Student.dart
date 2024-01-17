@@ -7,5 +7,8 @@ class Student {
   double average;
   String program;
 
-  Student(this.id, this.name, this.module, this.average, this.program);
+  Student(this.id, this.name, this.module, this.average, this.program) {
+    // TODO: implement Student
+    throw UnimplementedError();
+  }
 }
