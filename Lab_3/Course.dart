@@ -35,4 +35,9 @@ class Course {
   set title(String value) {
     _title = value;
   }
+
+   @override
+  String toString() {
+    return 'Course{_title: $_title, _day: $_day, _time: $_time, _venue: $_venue, _mark: $_mark}';
+  }
 }

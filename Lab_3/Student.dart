@@ -43,4 +43,16 @@ class Student {
   String toString() {
     return 'Student{_id: $_id, _name: $_name, _module: $_module, _average: $_average, _program: $_program}';
   }
+
+  double calculateAverage(List<Course> course){
+    if(course == null || course.length ==0){
+      return 0.0;
+    }
+    double sumOfMarks =0;
+
+    for (Course courses in course){
+      sumOfMarks = sumOfMarks + courses.mark;
+    }
+    return sumOfMarks/course.length;
+  }
 }
