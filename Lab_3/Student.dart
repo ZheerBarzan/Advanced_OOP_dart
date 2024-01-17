@@ -4,10 +4,11 @@ class Student {
   int _id;
   String _name;
   List<Course> _module;
-  double _average;
+  double _average = 0;
   String _program;
 
-  Student(this._id, this._name, this._module, this._average, this._program);
+
+  Student(this._id, this._name, this._module, this._program);
 
   String get program => _program;
 
