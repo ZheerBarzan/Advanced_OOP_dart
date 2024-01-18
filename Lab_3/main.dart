@@ -1,7 +1,5 @@
 import 'Course.dart';
 import 'Student.dart';
-
-
 void main(){
   // A) Create an Arraylist of type Student.
   List<Student> students = [];
@@ -12,8 +10,6 @@ void main(){
     new Course("Cloud Computing","TUE","4:30","F13",95),
     new Course("Software Requirements","WED","4:30","F11",97) ] ;
   students.add(Student(1,"zhir barzan",course1 as List<Course>,"PG"));
-
-
   // C) Create another student and repeat the above process and add it to the arraylist.
   List<Course> courses2 =[new Course("microbiology","Sun","8:00","S16",92),
   new Course("academic english","Sun","12:00","F13",90),
@@ -23,13 +19,9 @@ void main(){
   showList(students);
   // E) Delete the first Student from the Arraylist.
   students.remove(students.first);
-
   // after the removal
   print("after the removal!!!\n");
   showList(students);
-
-
-
 }
 void showList(List<Student> students){
   for(Student student in students){
