@@ -25,6 +25,6 @@ class Circle extends Shape{
 
   @override
   String toString() {
-    return 'Rectangle{_radius: $radius , filled: ${super.filled} , color: ${super.color}';
+    return 'Rectangle{_radius: $_radius , filled: ${super.filled} , color: ${super.color}';
   }
 }
