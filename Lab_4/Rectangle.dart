@@ -20,17 +20,17 @@ class Rectangle extends Shape{
 
   @override
   double getArea() {
-    // TODO: implement getArea
-    return super.getArea();
+    double area = length*width;
+    return area;
   }
   @override
   double getParamieter() {
-    // TODO: implement getParamieter
-    return super.getParamieter();
+    double parameter = 2*(length+width);
+    return parameter;
   }
 
   @override
   String toString() {
-    return 'Rectangle{_width: $_width, _length: $_length , filled: ${super.filled} , color: ${super.color}';
+    return 'Rectangle{_width: $_width, _length: $_length , filled: ${super.filled} , color: ${super.color} , area: ${getArea()}, parametier: ${getParamieter()}';
   }
 }
