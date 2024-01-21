@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'Shape.dart';
 
 class Circle extends Shape{
@@ -14,17 +16,17 @@ class Circle extends Shape{
 
   @override
   double getArea() {
-    // TODO: implement getArea
-    return super.getArea();
+    double area = pi * pow(radius, 2);
+    return area;
   }
   @override
   double getParamieter() {
-    // TODO: implement getParamieter
-    return super.getParamieter();
+    double perimeter = 2* pi* radius;
+    return perimeter;
   }
 
   @override
   String toString() {
-    return 'Rectangle{_radius: $_radius , filled: ${super.filled} , color: ${super.color}';
+    return 'Rectangle{_radius: $radius , filled: ${super.filled} , color: ${super.color} , area: ${getArea()}, parametier: ${getParamieter()}';
   }
 }

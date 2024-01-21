@@ -27,6 +27,6 @@ class Squre extends Rectangle{
 
   @override
   String toString() {
-    return 'Rectangle{_radius: $_side , filled: ${super.filled} , color: ${super.color}';
+    return 'Rectangle{_radius: $side , filled: ${super.filled} , color: ${super.color} , area: ${getArea()}, parametier: ${getParamieter()}';
   }
 }
