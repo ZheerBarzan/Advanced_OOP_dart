@@ -1,5 +1,6 @@
 import 'Rectangle.dart';
 import 'Shape.dart';
+import 'dart:math';
 
 class Squre extends Rectangle{
   double _side;
@@ -15,13 +16,13 @@ class Squre extends Rectangle{
 
   @override
   double getArea() {
-    // TODO: implement getArea
-    return super.getArea();
+    double area = pow(side, 2) as double;
+    return area;
   }
   @override
   double getParamieter() {
-    // TODO: implement getParamieter
-    return super.getParamieter();
+    double paramieter = side*4 as double;
+    return paramieter;
   }
 
   @override
