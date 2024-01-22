@@ -5,7 +5,11 @@ import 'dart:math';
 class Squre extends Rectangle{
   double _side;
 
-  Squre(this._side) : super(0.0, 0.0, '', false);
+  Squre(this._side,String color, bool filled) : super(0.0, 0.0, color, filled) {
+
+
+    throw UnimplementedError();
+  }
 
 
   double get side => _side;
