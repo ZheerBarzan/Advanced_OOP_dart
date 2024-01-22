@@ -7,7 +7,6 @@ abstract class Shape{
 
    Shape(this._color, this._filled) {
      count++;
-     throw UnimplementedError();
    }
 
   bool get filled => _filled;

@@ -6,12 +6,7 @@ class Squre extends Rectangle{
   double _side;
 
   Squre(this._side,String color, bool filled) : super(0.0, 0.0, color, filled) {
-
-
-    throw UnimplementedError();
   }
-
-
   double get side => _side;
 
   set side(double value) {
