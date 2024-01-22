@@ -10,6 +10,9 @@ void main(){
   Squre squre = Squre(2,"green",false);
   //B) Add a variable/ method to count total number of objects of the super class and one of the sub-classes.
   print("number of objects made: ${Shape.count}");
-
+  // C) In the toString() method of the sub-class, call the toString() method of the abstract super class.
+  print(circle.toString());
+  print(rectangle.toString());
+  print(squre.toString());
 
 }
