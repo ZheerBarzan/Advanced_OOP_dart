@@ -3,13 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Advanced_OOP_dart.iml" filepath="$PROJECT_DIR$/Advanced_OOP_dart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_1/Lab_1.iml" filepath="$PROJECT_DIR$/Lab_1/Lab_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_2/Lab_2.iml" filepath="$PROJECT_DIR$/Lab_2/Lab_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_3/Lab_3.iml" filepath="$PROJECT_DIR$/Lab_3/Lab_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_4/Lab_4.iml" filepath="$PROJECT_DIR$/Lab_4/Lab_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Observer pattern/Observer pattern.iml" filepath="$PROJECT_DIR$/Observer pattern/Observer pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_1/Question_2.iml" filepath="$PROJECT_DIR$/Lab_1/Question_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_1/Question_3.iml" filepath="$PROJECT_DIR$/Lab_1/Question_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_OOP/Lab_1/Lab_1.iml" filepath="$PROJECT_DIR$/advanced_OOP/Lab_1/Lab_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_OOP/Lab_2/Lab_2.iml" filepath="$PROJECT_DIR$/advanced_OOP/Lab_2/Lab_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_OOP/Lab_3/Lab_3.iml" filepath="$PROJECT_DIR$/advanced_OOP/Lab_3/Lab_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_OOP/Lab_4/Lab_4.iml" filepath="$PROJECT_DIR$/advanced_OOP/Lab_4/Lab_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_patterns/Observer pattern/Observer pattern.iml" filepath="$PROJECT_DIR$/Design_patterns/Observer pattern/Observer pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_OOP/Lab_1/Question_2.iml" filepath="$PROJECT_DIR$/advanced_OOP/Lab_1/Question_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_OOP/Lab_1/Question_3.iml" filepath="$PROJECT_DIR$/advanced_OOP/Lab_1/Question_3.iml" />
     </modules>
   </component>
 </project>
